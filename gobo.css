@@ -33,4 +33,13 @@
 
 
 /*DEVELOPERS*/
+.gobo-xmp-code{
+    background-color: #fffcdd;
+    border-radius: 3px;
+    border:#3b3b3b dashed 1px;
+    word-wrap: break-word;
+    white-space: pre-line;
+    padding: 10px;
+    padding-left: 15px;
 
+}
