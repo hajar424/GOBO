@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Button</title>
+    <title>Dropdown</title>
     <link rel="stylesheet" href="../gobo.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -13,17 +13,26 @@
 </head>
 <body>
 <div class="col-md-4 col-md-offset-4">
-    <h1><a href="../index.html">GOBO</a> Alert</h1>
+    <h1><a href="../index.html">GOBO</a> Dropdown</h1>
     <hr>
-    <p>This are different variants of alerts</p>
+    <p>This are different variants of dropdowns</p>
 
-    <div class="gobo-alert-normal">This is a normal alert</div>
-    <xmp class="gobo-xmp-code"><div class="gobo-alert-normal">This is a normal alert</div></xmp>
-    <div class="gobo-alert-info">This is a normal alert</div>
-    <xmp class="gobo-xmp-code"><div class="gobo-alert-info">This is a info alert</div></xmp>
-    <div class="gobo-alert-danger">This is a danger alert!</div>
-    <xmp class="gobo-xmp-code"><div class="gobo-alert-danger">This is a danger alert</div></xmp>
-
+    <div class="gobo-dropdown-default">
+        <button class="gobo-dropdown-default-button">Dropdown menu</button>
+        <div class="gobo-dropdown-default-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+    <xmp class="gobo-xmp-code"><div class="gobo-dropdown-default">
+        <button class="gobo-dropdown-default-button">Dropdown menu</button>
+        <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div></xmp>
 </div>
 </body>
 </html>
