@@ -31,21 +31,29 @@
 
 /*Alert*/
 .gobo-alert-normal{  border-radius: 2px;  border:#8b8f8b solid 1px;  border-left:#555655 solid 10px;  font-size: 16px;  background-color: #f9f9f9;  color: #3b3b3b;  padding: 18px 22px 18px 24px; margin-bottom: 5px ; }
-.gobo-alert-normal:hover{ border-left:#555655 solid 15px; }
 .gobo-alert-danger{ border-radius: 2px;  border:#ff8487 solid 1px;  border-left:#ff747b solid 10px;  font-size: 16px;  background-color:#ffdede;  color: #3b3b3b;  padding: 18px 20px 18px 20px; margin-bottom: 5px ;  }
-.gobo-alert-danger:hover{ border-left:#ff747b solid 15px; }
 .gobo-alert-info{ border-radius: 2px;  border:#f2f630 solid 1px;  border-left: #fbf64a solid 10px;  font-size: 16px;  background-color: #fffddf;  color: #3b3b3b;  padding: 18px 22px 18px 24px;  margin-bottom: 5px ;}
-.gobo-alert-info:hover{ border-left:#f6f094 solid 15px; }
 
 /*DROPDOWN*/
 /*DROPDOWN DEFAULT*/
-.gobo-dropdown-default-button {  background-color: #fcfcfc;  color: #3e3e3e;  padding: 16px;  font-size: 16px;  border: none;  cursor: pointer;  }
 .gobo-dropdown-default {  position: relative;  display: inline-block;  border:#3e3e3e solid 1px;  border-bottom:#3e3e3e solid 4px;  }
+.gobo-dropdown-default-button {  background-color: #fcfcfc;  color: #3e3e3e;  padding: 16px;  font-size: 16px;  border: none;  cursor: pointer;  }
 .gobo-dropdown-default-content {  display: none;  position: absolute;  background-color: #f9f9f9;  min-width: 160px;  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  }
 .gobo-dropdown-default-content a {  color: black;  padding: 12px 16px;  text-decoration: none;  display: block;  }
 .gobo-dropdown-default-content a:hover {  background-color: #f1f1f1;  border-left: #2e0012 solid 2px;  text-decoration: none;  }
 .gobo-dropdown-default:hover .gobo-dropdown-default-content {  display: block;  }
 .gobo-dropdown-default:hover .gobo-dropdown-default-button{  background-color: #2d2d2d;  color: #ffffff;  }
+
+/*Input Text*/
+.gobo-input-text-default{  padding:7px; margin: 5px 0px 5px 0px;border-radius: 3px; border: #d1d1d1 solid  1px;  border-top: #d8dbdd  solid 5px ;  background-color:#fefefe;  width:100%;  }
+.gobo-input-text-default:focus{  border-top: #d8dbdd solid 5px ; background-color: #fbfbfb;  }
+
+/*Image frame*/
+.gobo-image-default{
+    box-shadow: #b3b6b6 10px 9px 45px ;
+    width:100%;
+
+}
 
 /*DEVELOPERS*/
 .gobo-xmp-code{  background-color: #FFFEF0;  border-radius: 3px;  border:#e2e2e2 dashed 1px;  word-wrap: break-word;  white-space: pre-wrap;  padding: 10px;  font-family: monospace ;
