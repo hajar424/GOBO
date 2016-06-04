@@ -30,18 +30,11 @@
 .gobo-list-li-hor-default:active { background-color: #353535;}
 
 /*Alert*/
-.gobo-alert-normal{
-    border-radius: 2px;
-    border:#696b69 solid 1px;
-    border-top:#555655 solid 4px;
-    font-size: 16px;
-    background-color: #fafffa;
-    background-color: #fafffa;
-    color: #3b3b3b;
-    padding: 18px 22px 18px 24px;
-}
+.gobo-alert-normal{  border-radius: 2px;  border:#8b8f8b solid 1px;  border-left:#555655 solid 10px;  font-size: 16px;  background-color: #f9f9f9;  color: #3b3b3b;  padding: 18px 22px 18px 24px; margin-bottom: 5px ; }
+.gobo-alert-danger{  border-radius: 2px;  border:#ff8487 solid 1px;  border-left:#ff747b solid 10px;  font-size: 16px;  background-color:#ffdede;  color: #3b3b3b;  padding: 18px 20px 18px 20px; margin-bottom: 5px ;  }
+.gobo-alert-info{  border-radius: 2px;  border:#f2f630 solid 1px;  border-left: #fbf64a solid 10px;  font-size: 16px;  background-color: #fffddf;  color: #3b3b3b;  padding: 18px 22px 18px 24px;  margin-bottom: 5px ;}
 
 /*DEVELOPERS*/
-.gobo-xmp-code{  background-color: #fffcdd;  border-radius: 3px;  border:#3b3b3b dashed 1px;  word-wrap: break-word;  white-space: pre-wrap;  padding: 10px;  font-family: monospace ;
+.gobo-xmp-code{  background-color: #FFFEF0;  border-radius: 3px;  border:#3b3b3b dashed 1px;  word-wrap: break-word;  white-space: pre-wrap;  padding: 10px;  font-family: monospace ;
 
 }
